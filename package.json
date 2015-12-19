@@ -1,0 +1,15 @@
+{
+  "name": "cyo-mustache",
+  "version": "0.0.1",
+  "description": "Create your own Mustache.js",
+  "main": "./mustache.js",
+  "scripts": {
+    "test": "mocha --reporter spec test/*-test.js",
+    "test-render": "mocha  --reporter spec test/render-test"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.1.0"
+  },
+  "license": "MIT"
+}
